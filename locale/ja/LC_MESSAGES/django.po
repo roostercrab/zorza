@@ -1,0 +1,582 @@
+#coding:utf-8
+msgid ""
+msgstr ""
+
+#: contact/models.py:6
+msgid "Your email address"
+msgstr "メールアドレス"
+
+#: contact/models.py:7
+msgid "Subject"
+msgstr "件名"
+
+#: contact/models.py:8 documents/forms.py:31
+msgid "Content"
+msgstr "コンテンツ"
+
+#: contact/templates/contact/message_form.html:5
+#: contact/templates/contact/message_form.html:10 templates/base.html:39
+msgid "Contact"
+msgstr "接触"
+
+#: contact/templates/contact/message_form.html:15
+msgid "Send"
+msgstr "送る"
+
+#: contact/templates/contact/success.html:5
+msgid "Message sent succesfully"
+msgstr "メッセージが正常に送信されました"
+
+#: contact/templates/contact/success.html:10
+msgid "Success"
+msgstr "成功"
+
+#: contact/templates/contact/success.html:12
+msgid "Your message was sent succesfully."
+msgstr "あなたのメッセージは正常に送信されました。"
+
+#: documents/forms.py:15 documents/forms.py:25
+msgid "Category"
+msgstr "カテゴリー"
+
+#: documents/forms.py:20 documents/forms.py:30
+msgid "Title"
+msgstr "タイトル"
+
+#: documents/forms.py:21
+msgid "File"
+msgstr "ファイル"
+
+#: documents/templates/breadcrumbs.html:2
+#: documents/templates/show_category.html:5 templates/base.html:25
+msgid "Documents"
+msgstr "書類"
+
+#: documents/templates/delete_item.html:5
+#: documents/templates/delete_item.html:11
+msgid "Delete item"
+msgstr "アイテムを削除"
+
+#: documents/templates/delete_item.html:13
+#, python-format
+msgid "Are you sure you want to delete \"%(object)s\"?"
+msgstr "「\"%(object)s\"」を削除してもよろしいですか？"
+
+#: documents/templates/delete_item.html:17
+#: documents/templates/edit_document.html:24
+#: documents/templates/edit_file.html:24
+#: timetable/templates/add_substitutions.html:47
+#: timetable/templates/add_substitutions.html:59
+msgid "Back"
+msgstr "バック"
+
+#: documents/templates/delete_item.html:19
+#: documents/templates/show_mine.html:31
+#: timetable/templates/substitutions.html:38
+msgid "Delete"
+msgstr "削除する"
+
+#: documents/templates/edit_document.html:6
+#: documents/templates/edit_document.html:16
+msgid "Edit document"
+msgstr "文書を編集"
+
+#: documents/templates/edit_document.html:8
+#: documents/templates/edit_document.html:18
+msgid "Create a document"
+msgstr "文書を作成する"
+
+#: documents/templates/edit_document.html:26
+#: documents/templates/edit_file.html:26
+#: timetable/templates/add_substitutions.html:49
+#: timetable/templates/edit_calendar.html:42
+msgid "Save"
+msgstr "保存する"
+
+#: documents/templates/edit_file.html:6 documents/templates/edit_file.html:16
+msgid "Update file"
+msgstr "更新ファイル"
+
+#: documents/templates/edit_file.html:8 documents/templates/edit_file.html:18
+msgid "Create a file"
+msgstr "ファイルを作成する"
+
+#: documents/templates/show_category.html:13
+msgid "Subcategories:"
+msgstr "サブカテゴリ："
+
+#: documents/templates/show_category.html:27
+#: documents/templates/show_document.html:16
+#: documents/templates/show_mine.html:18
+#, python-format
+msgid "Created on %(created)s."
+msgstr "%(created)s で作成されました。"
+
+#: documents/templates/show_category.html:27
+#: documents/templates/show_document.html:21
+#: documents/templates/show_mine.html:18
+#, python-format
+msgid "Modified on %(modified)s."
+msgstr "%(modified)s で修正されました。"
+
+#: documents/templates/show_category.html:45
+#: documents/templates/show_mine.html:37
+msgid "Nothing here!"
+msgstr "ここには何もない！"
+
+#: documents/templates/show_document.html:12
+msgid "Author: "
+msgstr "著者："
+
+#: documents/templates/show_mine.html:5 documents/templates/show_mine.html:9
+#: timetable/templates/management.html:38
+msgid "My documents"
+msgstr "私の文書"
+
+#: documents/templates/show_mine.html:28
+msgid "Edit"
+msgstr "編集する"
+
+#: documents/templates/show_mine.html:42
+msgid "Add a file"
+msgstr "ファイルを追加する"
+
+#: documents/templates/show_mine.html:45
+msgid "Add a document"
+msgstr "文書を追加する"
+
+#: templates/404.html:12
+msgid "Page not found"
+msgstr "ページが見つかりません"
+
+#: templates/base.html:16 templates/registration/logged_out.html:13
+#: timetable/templates/display.html:54
+msgid "Visit the main page"
+msgstr "メインページへ"
+
+#: templates/base.html:22 timetable/templates/class_timetable.html:5
+#: timetable/templates/group_timetable.html:5
+#: timetable/templates/room_timetable.html:5
+#: timetable/templates/teacher_timetable.html:5
+#: timetable/templates/timetable_base.html:7
+msgid "Timetable"
+msgstr "時刻表"
+
+#: templates/base.html:35
+msgid "About"
+msgstr "約"
+
+#: templates/base.html:37 timetable/templates/management.html:5
+#: timetable/templates/management.html:11
+msgid "Management"
+msgstr "管理"
+
+#: templates/registration/logged_out.html:5
+#: templates/registration/logged_out.html:10
+msgid "Logged out"
+msgstr "ログアウトしました"
+
+#: templates/registration/logged_out.html:15
+msgid "or"
+msgstr "または"
+
+#: templates/registration/logged_out.html:17
+msgid "Log in again"
+msgstr "再度ログインする"
+
+#: templates/registration/login.html:5 templates/registration/login.html:10
+#: templates/registration/login.html:33
+msgid "Log in"
+msgstr "ログイン"
+
+#: templates/registration/login.html:13
+msgid "Your username and password didn't match. Please try again."
+msgstr ""
+"あなたのユーザー名とパスワードが一致しませんでした。もう一度やり直してくださ"
+"い。"
+
+#: templates/registration/login.html:20
+msgid ""
+"Your account doesn't have access to this page. To proceed, please login with "
+"an account that has access."
+msgstr ""
+"あなたのアカウントはこのページにアクセスできません。続行するには、アクセス権"
+"のあるアカウントでログインしてください。"
+
+#: timetable/forms.py:22 timetable/templates/reservations.html:14
+#: timetable/templates/rooms.html:19
+msgid "Teacher"
+msgstr "先生"
+
+#: timetable/forms.py:24 timetable/forms.py:135
+#: timetable/templates/edit_calendar.html:21
+msgid "Date"
+msgstr "日付"
+
+#: timetable/forms.py:33
+msgid "The given date cannot be in the past"
+msgstr "指定された日付は過去になることはできません"
+
+#: timetable/forms.py:35
+msgid "The given date must be within a year from now"
+msgstr "与えられた日付は今から1年以内でなければなりません"
+
+#: timetable/forms.py:37
+msgid "{} has no planned lessons on the given day."
+msgstr "{}は指定された日にレッスンは予定されていません。"
+
+#: timetable/forms.py:44
+msgid "-----"
+msgstr "-----"
+
+#: timetable/forms.py:44 timetable/forms.py:130 timetable/models.py:122
+#: timetable/models.py:167
+msgid "cancelled"
+msgstr "キャンセル"
+
+#: timetable/forms.py:141
+msgid "Period number"
+msgstr "期間番号"
+
+#: timetable/forms.py:157
+msgid "CSV file with substitutions"
+msgstr "置換を含むCSVファイル"
+
+#: timetable/models.py:28
+msgid "link_to_class needs exactly one class"
+msgstr "link_to_classは正確に一つのクラスを必要とします"
+
+#: timetable/models.py:139 timetable/templates/add_substitutions.html:29
+msgid "Lesson"
+msgstr "レッスン"
+
+#: timetable/templates/absences.html:4
+msgid "Absences"
+msgstr "欠席"
+
+#: timetable/templates/absences.html:12
+#: timetable/templates/group_timetable.html:7
+#: timetable/templates/group_timetable.html:18
+#: timetable/templates/rooms.html:21 timetable/templates/substitutions.html:22
+msgid "Group"
+msgstr "グループ"
+
+#: timetable/templates/absences.html:13
+msgid "Periods"
+msgstr "期間"
+
+#: timetable/templates/add_substitutions.html:5
+#, python-format
+msgid "Adding substitutions for %(teacher)s on %(date)s"
+msgstr "%(teacher)s に %(date)s の代用を追加"
+
+#: timetable/templates/add_substitutions.html:13
+msgid "Adding substitutions — step 2"
+msgstr "置換を追加する - ステップ2"
+
+#: timetable/templates/add_substitutions.html:18
+#, python-format
+msgid ""
+"Substitutions for <a href=\"%(url)s\">%(teacher)s</a> on %(date)s "
+"(%(weekday)s). "
+msgstr ""
+"％（date）s（％（平日）s）の<a href=\"%(url)s\">%(teacher)s</a>の代わり "
+"%(date)s に使用し (%(weekday)s) ます。"
+
+#: timetable/templates/add_substitutions.html:28
+#: timetable/templates/reservations.html:12
+#: timetable/templates/schedules.html:26
+#: timetable/templates/substitutions.html:19
+#: timetable/templates/timetable_base.html:31
+msgctxt "timetable header"
+msgid "No."
+msgstr "いいえ"
+
+#: timetable/templates/add_substitutions.html:30
+#: timetable/templates/substitutions.html:21
+msgid "Substitute"
+msgstr "代替"
+
+#: timetable/templates/add_substitutions.html:54
+#, python-format
+msgid "%(name)s has no planned lessons on that day (%(weekday)s)."
+msgstr "%(name)sは、その日のレッスンは計画されていません(%(weekday)s)。"
+
+#: timetable/templates/class_timetable.html:5
+#: timetable/templates/class_timetable.html:9
+#: timetable/templates/group_timetable.html:27
+msgid "Class"
+msgstr "クラス"
+
+#: timetable/templates/class_timetable.html:25
+msgid "Select groups to show"
+msgstr "表示するグループを選択"
+
+#: timetable/templates/csv_import_success.html:6
+msgid "CSV file imported"
+msgstr "CSVファイルをインポートしました"
+
+#: timetable/templates/csv_import_success.html:11
+msgid "Substitutions imported successfully"
+msgstr "代替品のインポートに成功しました"
+
+#: timetable/templates/csv_import_success.html:13
+#, python-format
+msgid ""
+"<li>Rows added: %(rows_added)s</li> <li>Rows updated: %(rows_updated)s</li> "
+"<li>Rows failed: %(rows_failed)s</li>"
+msgstr ""
+"<li>追加された行：%(rows_added)s </li> <li>更新された行：%(rows_updated)s </"
+"li> <li>失敗した行：%(rows_failed)s </li>"
+
+#: timetable/templates/csv_import_success.html:20
+msgid "Added/updated"
+msgstr "追加/更新"
+
+#: timetable/templates/csv_import_success.html:27
+msgid "Errors"
+msgstr "エラー"
+
+#: timetable/templates/dayplans.html:11
+#, python-format
+msgctxt "dayplans"
+msgid "%(schedule)s takes effect."
+msgstr "%(schedule)sが有効になります。"
+
+#: timetable/templates/dayplans.html:15
+msgctxt "dayplans"
+msgid "lessons are cancelled."
+msgstr "授業はキャンセルされます。"
+
+#: timetable/templates/display.html:80
+msgid "Last connection:"
+msgstr "最後の接続："
+
+#: timetable/templates/edit_calendar.html:5
+#: timetable/templates/edit_calendar.html:10
+#: timetable/templates/management.html:34
+msgid "Calendar"
+msgstr "カレンダー"
+
+#: timetable/templates/edit_calendar.html:12
+msgid "Add or change schedules for future dates."
+msgstr "将来の日付のスケジュールを追加または変更します。"
+
+#: timetable/templates/edit_calendar.html:22
+msgid "Schedule"
+msgstr "スケジュール"
+
+#: timetable/templates/group_timetable.html:9
+#: timetable/templates/group_timetable.html:20
+msgid "Groups"
+msgstr "グループ"
+
+#: timetable/templates/group_timetable.html:29
+msgid "Classes"
+msgstr "クラス"
+
+#: timetable/templates/import_substitutions.html:6
+#: timetable/templates/management.html:19
+#: timetable/templates/substitutions.html:4
+#: timetable/templates/teacher_and_date_select.html:5
+msgid "Substitutions"
+msgstr "代用"
+
+#: timetable/templates/import_substitutions.html:6
+msgid "Import from CSV"
+msgstr "CSVからインポート"
+
+#: timetable/templates/import_substitutions.html:11
+msgid "Import substitutions from a CSV file"
+msgstr "CSVファイルから代入をインポートする"
+
+#: timetable/templates/import_substitutions.html:17
+msgid "Import"
+msgstr "インポート"
+
+#: timetable/templates/management.html:13
+#, python-format
+msgid "Logged in as %(user)s."
+msgstr " %(user)s としてログインしました。"
+
+#: timetable/templates/management.html:14
+msgid "Log out"
+msgstr "ログアウト"
+
+#: timetable/templates/management.html:15
+msgid "Change password"
+msgstr "パスワードを変更する"
+
+#: timetable/templates/management.html:23
+msgid "Import substitutions from CSV"
+msgstr "CSVから代替をインポート"
+
+#: timetable/templates/management.html:29
+msgid "Administration"
+msgstr "管理"
+
+#: timetable/templates/management.html:42
+#, python-format
+msgid ""
+"Due to efficiency reasons up to %(cache_time)s minutes may be needed to see "
+"changes on other pages."
+msgstr ""
+"効率上の理由から、他のページで変更を確認するには最大 %(cache_time)s 分が必要"
+"となる場合があります。"
+
+#: timetable/templates/personalization.html:5
+#: timetable/templates/personalization.html:9
+msgid "Timetable personalization"
+msgstr "タイムテーブルパーソナライゼーション"
+
+#: timetable/templates/personalization.html:24
+msgid "Go to timetable"
+msgstr "時刻表に行く"
+
+#: timetable/templates/reservations.html:4
+msgid "Reservations"
+msgstr "ご予約"
+
+#: timetable/templates/reservations.html:13
+#: timetable/templates/substitutions.html:20
+#: timetable/templates/timetable_base.html:32
+msgctxt "timetable header"
+msgid "Period"
+msgstr "期間"
+
+#: timetable/templates/reservations.html:15
+#: timetable/templates/room_timetable.html:5 timetable/templates/rooms.html:18
+msgid "Room"
+msgstr "ルーム"
+
+#: timetable/templates/room_timetable.html:9
+msgid "Classroom"
+msgstr "教室"
+
+#: timetable/templates/rooms.html:5 timetable/templates/rooms.html:9
+#: timetable/templates/rooms_date_period_select.html:6
+msgid "Rooms"
+msgstr "部屋"
+
+#: timetable/templates/rooms.html:11
+#, python-format
+msgid "Showing lessons by room on %(date)s, period number %(period)s."
+msgstr "部屋ごとに %(date)s、期間番号 %(period)s にレッスンを表示"
+
+#: timetable/templates/rooms.html:20
+msgctxt "school subject"
+msgid "Subject"
+msgstr "件名"
+
+#: timetable/templates/rooms_date_period_select.html:6
+#: timetable/templates/rooms_date_period_select.html:11
+msgid "Select date and period"
+msgstr "日付と期間を選択"
+
+#: timetable/templates/rooms_date_period_select.html:12
+msgid "Select the time for which to show lessons by room."
+msgstr "部屋ごとにレッスンを表示する時間を選択します。"
+
+#: timetable/templates/rooms_date_period_select.html:18
+msgid "Show lessons in rooms"
+msgstr "部屋でレッスンを表示する"
+
+#: timetable/templates/schedules.html:6 timetable/templates/schedules.html:11
+#: timetable/templates/timetable_base.html:100
+msgid "Schedules"
+msgstr "スケジュール"
+
+#: timetable/templates/substitutions.html:24
+msgid "Delete?"
+msgstr "削除しますか？"
+
+#: timetable/templates/teacher_and_date_select.html:10
+msgid "Adding substitutions — step 1"
+msgstr "置換を追加する - ステップ1"
+
+#: timetable/templates/teacher_and_date_select.html:13
+#, python-format
+msgid "Today's date is %(today)s."
+msgstr "今日の日付は%(today)sです。"
+
+#: timetable/templates/teacher_and_date_select.html:21
+msgid "Go to the next step"
+msgstr "次のステップに進む"
+
+#: timetable/templates/timer.html:3
+msgid "<time></time> until the first period today."
+msgstr "<time> </time>は今日の最初の期間までです。"
+
+#: timetable/templates/timer.html:6
+msgid ""
+"<time></time> until the end of period no. <span class=\"period-no\"></span>."
+msgstr "期間終了まで<time> </time> <span class = \"period-no\"> </span>"
+
+#: timetable/templates/timer.html:9
+msgid "<time></time> until period no. <span class=\"period-no\"></span>."
+msgstr "期間なしまで<time> </time> <span class = \"period-no\"> </span>"
+
+#: timetable/templates/timer.html:12
+msgid "Lessons have already finished today."
+msgstr "今日のレッスンはもう終わっています。"
+
+#: timetable/templates/timetable_base.html:17
+msgid "Set as default timetable"
+msgstr "デフォルトのタイムテーブルとして設定"
+
+#: timetable/templates/timetable_base.html:61
+msgid "Choose timetable to display"
+msgstr "表示する時刻表を選択"
+
+#: timetable/templates/timetable_base.html:65
+msgid "Choose a class"
+msgstr "クラスを選ぶ"
+
+#: timetable/templates/timetable_base.html:73
+msgid "Choose a teacher"
+msgstr "先生を選ぶ"
+
+#: timetable/templates/timetable_base.html:81
+msgid "Choose a classroom"
+msgstr "教室を選ぶ"
+
+#: timetable/templates/timetable_base.html:89
+msgid "Go"
+msgstr "行く"
+
+#: timetable/templates/timetable_base.html:101
+msgid "Show lessons at a given time"
+msgstr "与えられた時間にレッスンを表示する"
+
+#: timetable/tests.py:12 zorza/settings.py:141
+msgid "Monday"
+msgstr "月曜"
+
+#: timetable/tests.py:13 zorza/settings.py:142
+msgid "Tuesday"
+msgstr "火曜日"
+
+#: timetable/tests.py:14 zorza/settings.py:143
+msgid "Wednesday"
+msgstr "水曜日"
+
+#: timetable/tests.py:15 zorza/settings.py:144
+msgid "Thursday"
+msgstr "木曜日"
+
+#: timetable/tests.py:16 zorza/settings.py:145
+msgid "Friday"
+msgstr "金曜日"
+
+#: timetable/tests.py:17
+msgid "Saturday"
+msgstr "土曜日"
+
+#: timetable/tests.py:18
+msgid "Sunday"
+msgstr "日曜日"
+
+#: timetable/views.py:93
+msgid "Select at least one group"
+msgstr "少なくとも1つのグループを選択"
+
